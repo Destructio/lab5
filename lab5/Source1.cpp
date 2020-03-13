@@ -3,6 +3,10 @@
 std::vector<double> createNewArray(double array[], int n)
 {
 	int pos, neg;
+
+	pos = 0;
+	neg = 0;
+
 	for (int i = 0; i < n; i++) 
 	{
 		if (array[i] >= 0) pos++;
